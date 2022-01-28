@@ -6,7 +6,6 @@ import me.swanis.pouches.pouch.Pouch;
 import me.swanis.pouches.pouch.reward.Reward;
 import me.swanis.pouches.utils.ItemBuilder;
 import me.swanis.pouches.utils.TitleUtil;
-import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

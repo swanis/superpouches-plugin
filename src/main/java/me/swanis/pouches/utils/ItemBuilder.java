@@ -5,7 +5,6 @@ import org.bukkit.enchantments.Enchantment;
 import org.bukkit.inventory.ItemFlag;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
-import org.bukkit.inventory.meta.SkullMeta;
 
 import java.util.List;
 
@@ -52,15 +51,6 @@ public class ItemBuilder {
         ItemMeta itemMeta = itemStack.getItemMeta();
         itemMeta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
         itemStack.setItemMeta(itemMeta);
-        return this;
-    }
-
-    public ItemBuilder setOwner(String owner) {
-        if(itemStack.getType() != Material.SKULL_ITEM) return this;
-
-        SkullMeta skullMeta = (SkullMeta) itemStack.getItemMeta();
-        skullMeta.setOwner(owner);
-        itemStack.setItemMeta(skullMeta);
         return this;
     }
 
