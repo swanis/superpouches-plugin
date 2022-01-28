@@ -1,8 +1,0 @@
-main: me.swanis.pouches.Pouches
-name: SuperPouches
-version: 1.2.6
-author: Swanis
-api-version: 1.13
-
-commands:
-  pouches:
