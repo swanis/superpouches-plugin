@@ -16,6 +16,6 @@ public class PouchesAuthorCommand extends PluginCommand {
 
     @Command(command = "author", subCommand = true, baseCommand = "pouches")
     public void onCommand(CommandSender commandSender, String[] args) {
-        commandSender.sendMessage("This server is running SuperPouches v1.2.6 created by Swanis (https://www.mc-market.org/members/71127/)");
+        commandSender.sendMessage("This server is running SuperPouches v" + instance.getDescription().getVersion() + " created by Swanis (https://www.mc-market.org/members/71127/)");
     }
 }
