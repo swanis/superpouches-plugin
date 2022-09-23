@@ -249,7 +249,7 @@ public class PouchManager {
     }
 
     private void loadInventory() {
-        int p = (pouches.size()) / (Configuration.GUI_POUCHES_PER_PAGE + 1) + 1;
+        int p = (pouches.size() - 1) / Configuration.GUI_POUCHES_PER_PAGE + 1;
 
         for (int i = 0; i < p; i++) {
             Inventory inventory = instance.getServer().createInventory(null, (Configuration.GUI_ROWS * 9), Configuration.GUI_TITLE);

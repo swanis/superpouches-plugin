@@ -129,7 +129,7 @@ MobCoins:
     - "mobcoins give %player% %number%"
   item:
     material: "DOUBLE_PLANT"
-    name: "&b&lMobCoins Pouch Example(&f???&b&l)"
+    name: "&b&lMobCoins Pouch Example (&f???&b&l)"
     lore:
       - "&bAmount: &f100-1k"
       - ""
